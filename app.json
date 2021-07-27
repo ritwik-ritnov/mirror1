@@ -11,6 +11,11 @@
     "website": "https://github.com/breakdowns/slam-mirrorbot",
     "success_url": "https://t.me/SlamMirrorSupport",
     "stack": "container",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }     
+    ],
     "env": {
       "ENV": {
         "description": "Setting this to ANYTHING will enable Webhooks when in env mode",
