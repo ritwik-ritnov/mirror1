@@ -24,4 +24,4 @@ speedtest-cli
 telegraph
 tenacity
 TgCrypto
-youtube_dl
+git+https://github.com/ritwik-ritnov/yt-dlp
